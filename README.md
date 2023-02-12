@@ -2,7 +2,7 @@
 
 Go to openai.com and signup for you API-key. 
 
-All chatbots are currently set to use the davinci-003 engine
+All chatbots are currently set to use the davinci-003 model
 
 ```python
 def generate_response(prompt):
@@ -18,6 +18,8 @@ def generate_response(prompt):
     message = response.choices[0].text
     return message
 ```
+You can see the different text models at: https://platform.openai.com/docs/models/gpt-3
+
 Chatbots using the speech_recognition framework are set to the google speech API. You can use openAI Whisper if you prefer, read the docs at: https://pypi.org/project/SpeechRecognition/.
 
 You need Pyaudio to capture audio from microphone. If you're running macOS, you might run into an error using pip install pyaudio. Remember installing portaudio before pyaudio.
@@ -27,4 +29,4 @@ brew install portaudio
 pip install pyaudio
 ```
 
-
+Have fun!
