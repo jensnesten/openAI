@@ -24,11 +24,18 @@ You can see the different text models at: https://platform.openai.com/docs/model
 
 Chatbots using the speech_recognition framework are set to the google speech API. You can use openAI Whisper if you prefer, read the docs at: https://pypi.org/project/SpeechRecognition/.
 
-You need Pyaudio to capture audio from microphone. If you're running macOS, you might run into an error using pip install pyaudio. Remember installing portaudio before pyaudio.
+You need the Pyaudio framework to capture audio from microphone. If you're running macOS, you might run into an error using pip install pyaudio. Install portaudio before pyaudio. 
 
 ```bash
 brew install portaudio
 pip install pyaudio
+```
+I don't know why but it works.
+# Dependencies
+```bash
+pip install openai
+pip install SpeechRecognition
+pip install requests
 ```
 
 Have fun!
