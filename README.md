@@ -1,6 +1,8 @@
 # openAI-FUN
 
-Go to openai.com and signup for you API-key. 
+Run chatGPT and Dall-E locally using the openAI API.
+
+Go to openai.com and signup for your API-key. 
 
 All chatbots are currently set to use the davinci-003 model
 
