@@ -22,7 +22,7 @@ def generate_response(prompt):
 ```
 You can see the different text models at: https://platform.openai.com/docs/models/gpt-3
 
-Chatbots using the speech_recognition framework are set to the google speech API. You can use openAI Whisper if you prefer, read the docs at: https://pypi.org/project/SpeechRecognition/.
+Chatbots using the speech_recognition framework are set to the google speech API. You can use openAI Whisper if you prefer(it runs offline), read the docs at: https://pypi.org/project/SpeechRecognition/.
 
 You need the Pyaudio framework to capture audio from microphone. If you're running macOS, you might run into an error using pip install pyaudio. Install portaudio before pyaudio. 
 
