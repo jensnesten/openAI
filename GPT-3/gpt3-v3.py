@@ -1,7 +1,7 @@
 import openai
 import time
 
-openai.api_key = "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"
+openai.api_key = "Enter openAI API-key"
 
 def generate_text(prompt):
     completions = openai.Completion.create(
