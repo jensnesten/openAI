@@ -1,7 +1,7 @@
 import openai
 import time
 
-openai.api_key = "INSERT OPENAI API-KEY"
+openai.api_key = "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"
 
 def generate_text(prompt):
     completions = openai.Completion.create(
@@ -17,7 +17,7 @@ def generate_text(prompt):
     return message
 
 while True:
-    user_input = input("Enter a prompt: ")
+    user_input = input("\n Enter a prompt: ")
     response = generate_text(user_input)
     for char in response:
         print(char, end="", flush=True)
