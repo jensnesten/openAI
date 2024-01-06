@@ -13,7 +13,7 @@ def generate_text(prompt):
     data = {
         "model": "gpt-3.5-turbo",
         "messages": [
-            {"role": "system", "content": "You are an expert lawyer, and great at writing legal documents"},
+            {"role": "system", "content": "You are a helpful assistant"},
             {"role": "user", "content": prompt}
         ]
     }
