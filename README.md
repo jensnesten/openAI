@@ -31,5 +31,7 @@ pip install openai
 pip install SpeechRecognition
 pip install requests
 ```
+![GPT3](https://user-images.githubusercontent.com/42718681/218810862-0df0a789-4cfa-4e9a-944b-6e20a1508d6c.gif)
+
 
 Have fun!
