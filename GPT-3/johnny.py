@@ -2,7 +2,7 @@ import speech_recognition as sr
 import openai
 import time
 
-openai.api_key = "INSERT OPENAI API-KEY"
+openai.api_key = "OPENAI_API_KEY"
 
 def transcribe(audio):
     recognizer = sr.Recognizer()

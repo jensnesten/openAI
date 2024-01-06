@@ -6,7 +6,7 @@ import webbrowser
 endpoint = "https://api.openai.com/v1/images/generations"
 
 # Your API key
-api_key = "INSERT OPENAI API-KEY"
+api_key = "OPENAI_API_KEY"
 
 while True:
 # The prompt for DALL-E
@@ -20,7 +20,7 @@ while True:
 
 # Define the request data
     data = {
-    "model": "image-alpha-001",
+    "model": "dall-e-3",
     "prompt": prompt,
     "num_images":1,
     "size":"1024x1024",
